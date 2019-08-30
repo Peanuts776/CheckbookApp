@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Enter Your Title Here</title>
+		<title>All Transactions</title>
 		<link rel="stylesheet" href="./CSS/CheckbookApp.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,19 +24,17 @@
 	</header>
 	
 	<body id="body">
-		<h1>Enter Bank Name Here</h1>
-
-		<div id="transactions-container">			
+		<div id="checkbook-container">			
 			<!--
 			<div id="banner">
                     <img src="./Images/Budget.jpg" alt="Budget">
 			</div>
 			-->
-			<div id="transaction-form">
+			<div id="all-transactions-form">
 				<form>
 					<br>
-					Account Holder:    <input type="text" name="accountHolder" size="78" readonly><br><br>
-					Current Balance:    <input type="text" name="currentBalance" size="25" readonly>
+					<label>Account Holder:</label><input id="accountholder" type="text" name="accountHolder"readonly><br><br>
+					<label>Current Balance:</label><input id="balance" type="text" name="currentBalance" readonly>
 					<button type="button" onclick="">Add Transaction+</button>
 				</form>
 				<br>	

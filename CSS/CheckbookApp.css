@@ -15,17 +15,26 @@ h2{
 	text-align: center;
 }
 
-#transactions-container{
+h3{
+	color: darkslateblue;
+	font-size: 16px;
+	text-align: left;
+	margin-left: 50px;
+}
+
+#checkbook-container{
 	position: relative;
 	width: 800px;
 	height: auto;
 	border-radius: 8px;
 	border: 2px solid gray;
 	box-shadow: 4px 3px darkslateblue;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
 }
 
-#account-form {
+#account-form, #new-transaction-form {
 	position: relative;
 	margin-top: 50px;
 	margin-left: auto;
@@ -33,19 +42,29 @@ h2{
 	width: 700px;
 }
 
-#new-account-button {
+#new-account-button, #new-transaction-button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-label{
+label {
+	width: 125px;
 	margin-left: 50px;
 }
 
 input[type="text"]{
-	width: 300px;
-	margin-left: 50px;
+	width: 500px;
+	border-radius: 5px;
+	box-shadow: 4px 2px darkslateblue;
+}
+
+#accountholder {
+	width: 575px;
+}
+
+#balance{
+	width: 250px;
 }
 
 #transactions-table {
@@ -88,23 +107,23 @@ tr td{
 	min-width: 200px;
 }
 
-#transaction-form {
+#all-transactions-form {
 	position: relative;
-	left: 40px;
 }
 
-#transaction-form button{
+#all-transactions-form button{
 	background-color: darkgray;
 	position: absolute;
-	right: 80px;
+	right: 40px;
 }
 
-#transaction-form button:hover {
+#all-transactions-form button:hover {
 	background-color: lightgray;
 }
 
 .JavaScriptDropdown{
-    position: fixed;
+	position: relative;
+	margin-top: 0;
 }
 
 
