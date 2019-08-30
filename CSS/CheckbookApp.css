@@ -1,0 +1,123 @@
+body {
+	font-family: Lucida Sans Unicode;
+	text-align: center;
+}
+
+h1{
+	color: darkslateblue;
+	font-size: 36px;
+	text-align: center;
+}
+
+h2{
+	color: darkslateblue;
+	font-size: 24px;
+	text-align: center;
+}
+
+#transactions-container{
+	position: relative;
+	width: 800px;
+	height: auto;
+	border-radius: 8px;
+	border: 2px solid gray;
+	box-shadow: 4px 3px darkslateblue;
+	margin: auto;
+}
+
+#account-form {
+	position: relative;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+#new-account-button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+label{
+	margin-left: 50px;
+}
+
+input[type="text"]{
+	width: 300px;
+	margin-left: 50px;
+}
+
+#transactions-table {
+	background-color: white;
+	width: 90%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	border: 2px solid gray;
+	border-collapse: collapse;
+	border-radius: 8px;
+	table-layout: auto;
+}
+
+th{
+	border: 3px solid black;
+}
+
+tr td{
+	height: 25px;
+	border: 2px solid black;
+	word-wrap: normal;
+	vertical-align: top;
+}
+
+#headerRow {
+	color: darkslateblue;
+	text-align: center;
+}
+
+.center-align-col {
+	text-align: center;
+	min-width: 90px;
+}
+
+.left-align-col {
+	padding-left: 10px;
+	word-wrap: normal;
+	min-width: 200px;
+}
+
+#transaction-form {
+	position: relative;
+	left: 40px;
+}
+
+#transaction-form button{
+	background-color: darkgray;
+	position: absolute;
+	right: 80px;
+}
+
+#transaction-form button:hover {
+	background-color: lightgray;
+}
+
+.JavaScriptDropdown{
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Enter Your Title Here</title>
+		<link rel="stylesheet" href="./CSS/CheckbookApp.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+
+	<header>
+		<div class="JavaScriptDropdown">
+			<div class="btn-group">
+				<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">Menu</button>
+				<div class="dropdown-menu">
+					<a href="" class="dropdown-item">Home</a>
+					<a href="" class="dropdown-item">Create New Account</a>
+					<a href="" class="dropdown-item">Add New Transaction</a>
+				</div>
+			</div>
+	</div>  
+	</header>
+	
+	<body id="body">
+		<h1>Enter Bank Name Here</h1>
+
+		<div id="transactions-container">			
+			<!--
+			<div id="banner">
+                    <img src="./Images/Budget.jpg" alt="Budget">
+			</div>
+			-->
+			<div id="transaction-form">
+				<form>
+					<br>
+					Account Holder:    <input type="text" name="accountHolder" size="78" readonly><br><br>
+					Current Balance:    <input type="text" name="currentBalance" size="25" readonly>
+					<button type="button" onclick="">Add Transaction+</button>
+				</form>
+				<br>	
+			</div>
+			<h2>Recent Transactions</h2>
+			<table id = "transactions-table">
+				<tr id="headerRow">
+					<th>Date</th>
+					<th>Type</th>
+					<th>Description</th>
+					<th>Amount</th>
+					<th>Balance</th>
+				</tr>
+				<tr>
+					<td class="center-align-col">8/12/19</td>
+					<td class="center-align-col">Debit</td>
+					<td class="left-align-col">Wal Mart</td>
+					<td class="center-align-col">$123.45</td>
+					<td class="center-align-col">$10,654.78</td>
+				</tr>
+				<tr>
+						<td class="center-align-col">8/12/19</td>
+						<td class="center-align-col">Debit</td>
+						<td class="left-align-col">Nicoletti's Pizza</td>
+						<td class="center-align-col">$54.36</td>
+						<td class="center-align-col">$10,600.42</td>
+				</tr>
+				<tr>
+						<td class="center-align-col">8/14/19</td>
+						<td class="center-align-col">Debit</td>
+						<td class="left-align-col">Wawa</td>
+						<td class="center-align-col">$5.68</td>
+						<td class="center-align-col">$10,594.74</td>
+				</tr>
+				<tr>
+						<td class="center-align-col">8/15/19</td>
+						<td class="center-align-col">Credit</td>
+						<td class="left-align-col">Direct Deposit</td>
+						<td class="center-align-col">$2,789.43</td>
+						<td class="center-align-col">$13,384.17</td>
+				</tr>
+				<tr>
+						<td class="center-align-col">8/15/19</td>
+						<td class="center-align-col">Debit</td>
+						<td class="left-align-col">Mortgage</td>
+						<td class="center-align-col">$1854.89</td>
+						<td class="center-align-col">$11,529.28</td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+				</tr>
+				<tr>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="left-align-col"></td>
+						<td class="center-align-col"></td>
+						<td class="center-align-col"> </td>
+				</tr>		
+			</table>
+			<br><br>
+			
+		</div>
+		<script>
+            $(document).ready(function(){
+                $(".dropdown-toggle").dropdown();
+            });  
+		</script>
+	</body>
+</html>
