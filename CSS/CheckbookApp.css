@@ -1,56 +1,21 @@
+/* General Styling */
+
 body {
 	font-family: Lucida Sans Unicode;
 	text-align: center;
 }
 
 h1{
-	color: darkslateblue;
+	color: black;
 	font-size: 36px;
 	text-align: center;
 }
 
-h2{
-	color: darkslateblue;
-	font-size: 24px;
-	text-align: center;
-}
-
-h3{
-	color: darkslateblue;
-	font-size: 16px;
-	text-align: left;
-	margin-left: 50px;
-}
-
-#checkbook-container{
-	position: relative;
-	width: 800px;
-	height: auto;
-	border-radius: 8px;
-	border: 2px solid gray;
-	box-shadow: 4px 3px darkslateblue;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-}
-
-#account-form, #new-transaction-form {
-	position: relative;
-	margin-top: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 700px;
-}
-
-#new-account-button, #new-transaction-button {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
+/* General Form Field Styling */
 label {
 	width: 125px;
 	margin-left: 50px;
+	font-weight: bold;
 }
 
 input[type="text"]{
@@ -59,27 +24,7 @@ input[type="text"]{
 	box-shadow: 4px 2px darkslateblue;
 }
 
-#accountholder {
-	width: 575px;
-}
-
-#balance{
-	width: 250px;
-}
-
-#transactions-table {
-	background-color: white;
-	width: 90%;
-	height: auto;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 10px;
-	border: 2px solid gray;
-	border-collapse: collapse;
-	border-radius: 8px;
-	table-layout: auto;
-}
-
+/* General Table Styling */
 th{
 	border: 3px solid black;
 }
@@ -107,6 +52,46 @@ tr td{
 	min-width: 200px;
 }
 
+/* Drop-Down Menu Styling */
+.JavaScriptDropdown{
+	position: relative;
+	margin-top: 0;
+}
+
+/*Container Styling */
+#checkbook-container{
+	background-image: url("../Images/Budget.jpg");
+	opacity: 0.8;
+	position: relative;
+	width: 800px;
+	height: auto;
+	border-radius: 8px;
+	border: 2px solid gray;
+	box-shadow: 4px 3px darkslateblue;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+#checkbook-container h2{
+	color: white;
+	font-size: 32px;
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#checkbook-container h3{
+	font-size: 24px;
+	text-decoration: underline;
+	text-align: left;
+	color: white;
+	font-weight: bold;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+/* All Transactions Form and Table Styling */
 #all-transactions-form {
 	position: relative;
 }
@@ -121,10 +106,56 @@ tr td{
 	background-color: lightgray;
 }
 
-.JavaScriptDropdown{
-	position: relative;
-	margin-top: 0;
+#accountholder {
+	width: 575px;
 }
+
+#balance{
+	width: 250px;
+}
+
+#transactions-table {
+	background-color:white;
+	width: 90%;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	border: 2px solid gray;
+	border-collapse: collapse;
+	border-radius: 8px;
+	table-layout: auto;
+}
+
+/* New Account and New Transaction Styling */
+#account-form, #new-transaction-form {
+	position: relative;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+#new-account-button, #new-transaction-button {
+	background-color: darkgray;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#new-account-button:hover, #new-transaction-button:hover {
+	background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
