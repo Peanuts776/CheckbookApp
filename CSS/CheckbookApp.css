@@ -1,8 +1,17 @@
 /* General Styling */
 
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
 body {
 	font-family: Lucida Sans Unicode;
 	text-align: center;
+	background-image: url("../Images/CheckCalligraphyPen.jpg");
+	background-size: 100% 100%;
+	overflow: hidden;
+	background-repeat: no-repeat;
 }
 
 h1{
@@ -16,6 +25,7 @@ label {
 	width: 125px;
 	margin-left: 50px;
 	font-weight: bold;
+	opacity: initial;
 }
 
 input[type="text"]{
@@ -59,8 +69,7 @@ tr td{
 }
 
 /*Container Styling */
-#checkbook-container{
-	background-image: url("../Images/Budget.jpg");
+#checkbook-container{	
 	opacity: 0.8;
 	position: relative;
 	width: 800px;
@@ -74,18 +83,18 @@ tr td{
 }
 
 #checkbook-container h2{
-	color: white;
+	color: darkslateblue;
 	font-size: 32px;
+	font-weight: bold;
 	text-align: center;
 	text-decoration: underline;
-	font-weight: bold;
 }
 
 #checkbook-container h3{
 	font-size: 24px;
 	text-decoration: underline;
-	text-align: left;
-	color: white;
+	text-align: center;
+	color:darkslateblue;
 	font-weight: bold;
 	margin-left: 25px;
 	margin-top: 15px;
@@ -130,7 +139,7 @@ tr td{
 /* New Account and New Transaction Styling */
 #account-form, #new-transaction-form {
 	position: relative;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 700px;
